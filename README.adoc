@@ -1,0 +1,37 @@
+= D4L Maven Repository - Releases
+
+Maven repository for releases of our SDKs.
+
+== Usage
+
+Here you will find our releases if you don't want to use our link:https://github.com/orgs/d4l-data4life/packages[GitHub Packages].
+
+NOTICE: This repository is subject to change and there is not guarantee that dependencies will be available for longer time spans -> please use link:https://github.com/orgs/d4l-data4life/packages[GitHub Packages] instead.
+
+=== Gradle
+
+Please add the following to your root `build.gradle` or `build.gradle.kts`
+
+[source, gradle]
+----
+// build.gradle.kts
+repositories {
+    // add
+    maven("https://raw.github.com/d4l-data4life/maven-releases/main/releases")
+}
+----
+
+== Maintenance
+
+=== Deploy
+
+Is done by our CI SDK bot. No manual deploys allowed.
+
+=== Cleanup
+
+Release dependencies might be cleaned up du to various reasons.
+
+We have a script available that removes old dependencies:
+
+* `./cleanup.main.kts`
+* commit changes

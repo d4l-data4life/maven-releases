@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../securestore/1.13.2/securestore-1.13.2.module",
+    "group": "care.data4life.sdk.hc-securestore-sdk-kmp",
+    "module": "securestore",
+    "version": "1.13.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "2jevei36rfdyzbdwyzgijupjlq"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "securestore-jvm-1.13.2.jar",
+          "url": "securestore-jvm-1.13.2.jar",
+          "size": 16376,
+          "sha512": "42e7da4118b2a119d6185d5211df9a0b21dfe590da71b61acfa50d8d615bc5b90badfeed2b41b2a6510b8e9bbc2b546621e4c9951dcd1d6fef6bad0b7009b189",
+          "sha256": "a74e8e4bee38551cd36872abac85afc4167e6ae327fbe030d45d22b5bfc43210",
+          "sha1": "8fa90414ec6de2594797c11da1bb9d88e9969dd7",
+          "md5": "a685a40ea88935b9682798f300cf892b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.13.2.jar",
+          "url": "securestore-jvm-1.13.2.jar",
+          "size": 16376,
+          "sha512": "42e7da4118b2a119d6185d5211df9a0b21dfe590da71b61acfa50d8d615bc5b90badfeed2b41b2a6510b8e9bbc2b546621e4c9951dcd1d6fef6bad0b7009b189",
+          "sha256": "a74e8e4bee38551cd36872abac85afc4167e6ae327fbe030d45d22b5bfc43210",
+          "sha1": "8fa90414ec6de2594797c11da1bb9d88e9969dd7",
+          "md5": "a685a40ea88935b9682798f300cf892b"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../securestore-metadata/1.13.2/securestore-metadata-1.13.2.module",
+        "group": "care.data4life.sdk.hc-securestore-sdk-kmp",
+        "module": "securestore-metadata",
+        "version": "1.13.2"
+      }
+    }
+  ]
+}

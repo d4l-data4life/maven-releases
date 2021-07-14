@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../auth-jvm/1.13.2/auth-jvm-1.13.2.module",
+    "group": "care.data4life.hc-auth-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.13.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "4aqupfopcfhyxo4ffvhdcoguzq"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "auth-metadata-1.13.2.jar",
+          "url": "auth-metadata-1.13.2.jar",
+          "size": 3764,
+          "sha512": "0509dd3508ebc0c5951e6e586eafeeeef9736b71989eb886e64333ea3b6359a166faa100fefe6d2e9fd7733a5ece8c3bc20bb0cc184a2a54981244d71c180fc2",
+          "sha256": "3b5d93368fd55c733727b195426886ffd0f180cbb1aad7111eddeb14693ea989",
+          "sha1": "2f6bd7a934a56082432c0e383a024648a1c0ddf8",
+          "md5": "4031eb68463f380bb47293e52ebbc75e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.14.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "qt4l2o6jhbetfdszwongkjk6ey"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.14.0.jar",
+          "url": "crypto-common-1.14.0.jar",
+          "size": 11957,
+          "sha512": "1bf7d60719d3a4e8f49e3a6966ef4b9f16d31d689a709673b871bfc787a018f15dab220a1c6da034b330438f01c85406ff19dcc6a09f06525f5f86761e0ddd31",
+          "sha256": "665a6562cdc088703db9480e08dec451abc5662f469aac326a8092eadcdc2365",
+          "sha1": "35865a3049e2881438305701fec36555e5f2f24e",
+          "md5": "e0bd2dfa01e69f68ae15a13369622708"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.14.0.jar",
+          "url": "crypto-common-1.14.0.jar",
+          "size": 11957,
+          "sha512": "1bf7d60719d3a4e8f49e3a6966ef4b9f16d31d689a709673b871bfc787a018f15dab220a1c6da034b330438f01c85406ff19dcc6a09f06525f5f86761e0ddd31",
+          "sha256": "665a6562cdc088703db9480e08dec451abc5662f469aac326a8092eadcdc2365",
+          "sha1": "35865a3049e2881438305701fec36555e5f2f24e",
+          "md5": "e0bd2dfa01e69f68ae15a13369622708"
+        }
+      ]
+    }
+  ]
+}

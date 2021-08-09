@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util/0.1.0/test-util-0.1.0.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "acivhj2lyrg6hfvetor6vh3due"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-jvm-0.1.0.jar",
+          "url": "test-util-jvm-0.1.0.jar",
+          "size": 6557,
+          "sha512": "3705bcfcddd5360b6e8208218df0c9001d4aa17a940f4b0ea2e4467c351b9b9e37708451490311403163740039af970d62c3c2314ccc7ffbf385742289be6e43",
+          "sha256": "25a0368eaa7f1344ba395b000658ac75116bce68ec99b01f9cb10c2bfb079689",
+          "sha1": "7ae5512e04045d78c28707376639b722568f2a37",
+          "md5": "d455892f80b4c6483421d12cec2f06b8"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-jvm-0.1.0.jar",
+          "url": "test-util-jvm-0.1.0.jar",
+          "size": 6557,
+          "sha512": "3705bcfcddd5360b6e8208218df0c9001d4aa17a940f4b0ea2e4467c351b9b9e37708451490311403163740039af970d62c3c2314ccc7ffbf385742289be6e43",
+          "sha256": "25a0368eaa7f1344ba395b000658ac75116bce68ec99b01f9cb10c2bfb079689",
+          "sha1": "7ae5512e04045d78c28707376639b722568f2a37",
+          "md5": "d455892f80b4c6483421d12cec2f06b8"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../test-util-metadata/0.1.0/test-util-metadata-0.1.0.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-metadata",
+        "version": "0.1.0"
+      }
+    }
+  ]
+}

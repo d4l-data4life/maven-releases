@@ -3,11 +3,12 @@
   <groupId>care.data4life.gradle.gitversion</groupId>
   <artifactId>gradle-git-version</artifactId>
   <versioning>
-    <latest>0.12.3-d4l</latest>
-    <release>0.12.3-d4l</release>
+    <latest>0.12.4-d4l</latest>
+    <release>0.12.4-d4l</release>
     <versions>
       <version>0.12.3-d4l</version>
+      <version>0.12.4-d4l</version>
     </versions>
-    <lastUpdated>20210811135342</lastUpdated>
+    <lastUpdated>20210823162231</lastUpdated>
   </versioning>
 </metadata>

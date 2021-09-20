@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util/0.3.0/test-util-0.3.0.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-jvm-0.3.0.jar",
+          "url": "test-util-jvm-0.3.0.jar",
+          "size": 12792,
+          "sha512": "3ebe1c3b30c0aa6289afd185e4d94dde8d119f17a097a70e7e7cd60ee72cc7a468af818b645ced0074876782d7cb9ecc2d6bf74bda37cf9751fefceaa51fcb4f",
+          "sha256": "2af400b5022fa9540273f7b7c4321eec060606bdd96cc6418a0fe8017409b833",
+          "sha1": "10859e389fa3b5f61c4634b2a27cdff69ef105c1",
+          "md5": "27ffa19ead3aabab35e68fb31260b9e0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-junit",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-jvm-0.3.0.jar",
+          "url": "test-util-jvm-0.3.0.jar",
+          "size": 12792,
+          "sha512": "3ebe1c3b30c0aa6289afd185e4d94dde8d119f17a097a70e7e7cd60ee72cc7a468af818b645ced0074876782d7cb9ecc2d6bf74bda37cf9751fefceaa51fcb4f",
+          "sha256": "2af400b5022fa9540273f7b7c4321eec060606bdd96cc6418a0fe8017409b833",
+          "sha1": "10859e389fa3b5f61c4634b2a27cdff69ef105c1",
+          "md5": "27ffa19ead3aabab35e68fb31260b9e0"
+        }
+      ]
+    }
+  ]
+}

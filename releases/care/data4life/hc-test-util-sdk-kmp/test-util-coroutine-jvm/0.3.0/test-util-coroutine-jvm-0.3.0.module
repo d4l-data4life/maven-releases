@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-coroutine/0.3.0/test-util-coroutine-0.3.0.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-coroutine",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.3.0.jar",
+          "url": "test-util-coroutine-jvm-0.3.0.jar",
+          "size": 6089,
+          "sha512": "f57c2d55927af75c79328ad1be7d3be3b94e600a0df277b21ab4645b17a2c93163b8c62dd708742ce4cd3dccdb928860dab0771fe429897cb6860fbbc524fb1f",
+          "sha256": "5a9253abfa5054d7c53e25b4359bc388e4c1db882193d0997e20ae6ea6343823",
+          "sha1": "c9e4d539b9c222219e4553e73d41abd592c8fad6",
+          "md5": "3773093007e31c56c17a9f828ba5aa6b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.3.0.jar",
+          "url": "test-util-coroutine-jvm-0.3.0.jar",
+          "size": 6089,
+          "sha512": "f57c2d55927af75c79328ad1be7d3be3b94e600a0df277b21ab4645b17a2c93163b8c62dd708742ce4cd3dccdb928860dab0771fe429897cb6860fbbc524fb1f",
+          "sha256": "5a9253abfa5054d7c53e25b4359bc388e4c1db882193d0997e20ae6ea6343823",
+          "sha1": "c9e4d539b9c222219e4553e73d41abd592c8fad6",
+          "md5": "3773093007e31c56c17a9f828ba5aa6b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-coroutine/0.3.0/test-util-coroutine-0.3.0.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-coroutine",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.5.1-native-mt",
+            "requires": "1.5.1-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-coroutine.klib",
+          "url": "test-util-coroutine-iosarm64-0.3.0.klib",
+          "size": 7850,
+          "sha512": "549f8c880c9463e90f607b569ee8e8dbfdc1ce433b866fcc8a0925b0b7b5ca94f8297a61641e5fb213ed8fe0afbb6a6a03153bd3e616555025215dabb716648f",
+          "sha256": "230250861427fa6950eb115b04e02bd331a5410d3a8aa5909548652b2e4dc7db",
+          "sha1": "8b7b3f3c7c7d03130e7ff074a27cf80974d05ac3",
+          "md5": "d4297d9e0d2905ffa7acfe73bd64b1d7"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.5.1-native-mt",
+            "requires": "1.5.1-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-coroutine-iosarm64-0.3.0-metadata.jar",
+          "url": "test-util-coroutine-iosarm64-0.3.0-metadata.jar",
+          "size": 6284,
+          "sha512": "9c3d313aa14065c8b7ace22d70f717edd63f74401ea0b7925ca47abe37873f53bd3d05a4b5916c6916a566a44f662e893038dedf4f5f99f5e6c080ad13c94b71",
+          "sha256": "c8a9fb16fe2e7b721d490b623b085541dbe342c7e6bb4c029e353cd5c5189f1f",
+          "sha1": "bb4d2063a535a62084b2473406db872e424c2c0c",
+          "md5": "5c6530c18cabe8b0df1c281ace1cc205"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.11.0/util-1.11.0.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util.klib",
+          "url": "util-iosx64-1.11.0.klib",
+          "size": 24845,
+          "sha512": "419f9e4dafd0913783e4a960a540b05a01e94810531221d6d5fd6c13fe7ac3dd624270e9750a17e6a209e8fd8732239f02d2118d4a713cf328ef88dfbab95ff6",
+          "sha256": "1294e3a1cc79cea637b4998cb696c2a124f8fbbd8215942214e01e7f1f7bbd26",
+          "sha1": "89061742449222c9b0a3d019baabfd8b05ecd9c9",
+          "md5": "8a1f027a68249b7da90ec8bbf90f9dc2"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-iosx64-1.11.0-metadata.jar",
+          "url": "util-iosx64-1.11.0-metadata.jar",
+          "size": 6110,
+          "sha512": "52c4723e04aa63b6370b3e1eea2bc0f45e5a053f9f0147ec78462a9772b8552ac9497030b09f5d5da19225f739184250472f5ea0262b605bdf34308c6721ad42",
+          "sha256": "5e2d78f1be0894dc3c4e9112f7aef8cd015d438350747139bd10e1012eef86e6",
+          "sha1": "ed5cbfedf62b4fd14e3554b5699b4a027f9a3d6f",
+          "md5": "2d87fd37d95cb38726cf5950dee12852"
+        }
+      ]
+    }
+  ]
+}

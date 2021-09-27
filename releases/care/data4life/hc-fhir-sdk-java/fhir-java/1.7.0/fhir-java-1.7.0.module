@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.7.0.jar",
+          "url": "fhir-java-1.7.0.jar",
+          "size": 1012286,
+          "sha512": "b4e75fc03e37acbd2bf8211e265804ef32ceadffa3b20ff1f2f9537710d646d2ac6cec816fa037342a31d6a0daf3fbafcda51747ccecf39d38a0c59bf17581a1",
+          "sha256": "801deaff8328d4475dc59af347eda3436741f492d972674384a76a1c1dd58c7e",
+          "sha1": "63c027a5414dae6d86f81b2f24cf0c0575ddf911",
+          "md5": "33d47fd844d598f79e37434f2c9b2a1a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.7.0.jar",
+          "url": "fhir-java-1.7.0.jar",
+          "size": 1012286,
+          "sha512": "b4e75fc03e37acbd2bf8211e265804ef32ceadffa3b20ff1f2f9537710d646d2ac6cec816fa037342a31d6a0daf3fbafcda51747ccecf39d38a0c59bf17581a1",
+          "sha256": "801deaff8328d4475dc59af347eda3436741f492d972674384a76a1c1dd58c7e",
+          "sha1": "63c027a5414dae6d86f81b2f24cf0c0575ddf911",
+          "md5": "33d47fd844d598f79e37434f2c9b2a1a"
+        }
+      ]
+    }
+  ]
+}

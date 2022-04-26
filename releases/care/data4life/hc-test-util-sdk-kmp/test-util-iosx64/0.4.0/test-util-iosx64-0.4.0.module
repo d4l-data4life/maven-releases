@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util/0.4.0/test-util-0.4.0.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-annotations-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util.klib",
+          "url": "test-util-iosx64-0.4.0.klib",
+          "size": 17503,
+          "sha512": "0ebbf039accc26124edbda27c1c0a81160f336de35371118be48dd916d30214b89a3c1cc56c95b255ce0cae6aafc41a34a3406505cd7951ff827203087a6cb56",
+          "sha256": "9cf96d55785ecee6e6be3e72189d752084c03d43b276a96e012b6d7e76e85ef6",
+          "sha1": "2ce1818a7f32894678b3d2b2310965c248c14c07",
+          "md5": "a58c02e43e3c47743d97042664890cb7"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-annotations-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-iosx64-0.4.0-metadata.jar",
+          "url": "test-util-iosx64-0.4.0-metadata.jar",
+          "size": 7055,
+          "sha512": "59deb9c89475549bdbe26558aed1d341e46f482a36481f24c6bd76474ad6bdbeb051550cd142516ed9d97aca73dfa960733b59b6f1b5e9d733d9e4db922f4701",
+          "sha256": "d3bc8e5b516d7a0148c80f33b1841280b16681df2de0b57523063053d0a7b9d7",
+          "sha1": "aafe90fea59266700e36fd17745c4c2b29a001e7",
+          "md5": "c0ce4bbf5afdd3e5e0c398679b121dd3"
+        }
+      ]
+    }
+  ]
+}

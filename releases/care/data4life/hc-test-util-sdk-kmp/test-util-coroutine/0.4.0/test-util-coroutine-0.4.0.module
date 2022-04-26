@@ -1,0 +1,239 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-coroutine",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.6.0-native-mt",
+            "requires": "1.6.0-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-coroutine-metadata-0.4.0-all.jar",
+          "url": "test-util-coroutine-0.4.0-all.jar",
+          "size": 5018,
+          "sha512": "866a2a1c0d7c70bed58950f2281851a7d2abb6563dca706054c906dddb81f20f5facc7f042b9853b9ab0bb07da40522aaa2190b92efd574e9e3d4681851efd11",
+          "sha256": "6c309051d58ac8dd7e353a900e1039b48310ab3c599af348b1b2d7cd357e384f",
+          "sha1": "9aba57d80b6bdf118df3592ba47970b22a624e83",
+          "md5": "c675d216e47cb3559ff11598e2792681"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "test-util-coroutine-0.4.0.jar",
+          "url": "test-util-coroutine-0.4.0.jar",
+          "size": 1759,
+          "sha512": "21ec5e431dbf727710c959e8fa68c3116682f96d71c1fd085f7e4f8328f044c4d617644aa34a9689abb9ffb82b5f6222dac8b0ec59cc0fb76ef6683525ab8953",
+          "sha256": "d02d6eb75e3aa061a3be99bb6f472025ac3187fc0734c8ae752fb5bd0283ee0f",
+          "sha1": "75bc7b4c9f48776725003515bfb789fac8237312",
+          "md5": "e23bc9771fc4b37eeb5183ced8540217"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-coroutine-android-debug/0.4.0/test-util-coroutine-android-debug-0.4.0.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-coroutine-android-debug",
+        "version": "0.4.0"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-coroutine-android-debug/0.4.0/test-util-coroutine-android-debug-0.4.0.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-coroutine-android-debug",
+        "version": "0.4.0"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-coroutine-android/0.4.0/test-util-coroutine-android-0.4.0.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-coroutine-android",
+        "version": "0.4.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-coroutine-android/0.4.0/test-util-coroutine-android-0.4.0.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-coroutine-android",
+        "version": "0.4.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-coroutine-iosarm64/0.4.0/test-util-coroutine-iosarm64-0.4.0.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-coroutine-iosarm64",
+        "version": "0.4.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-coroutine-iosarm64/0.4.0/test-util-coroutine-iosarm64-0.4.0.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-coroutine-iosarm64",
+        "version": "0.4.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-coroutine-iosx64/0.4.0/test-util-coroutine-iosx64-0.4.0.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-coroutine-iosx64",
+        "version": "0.4.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-coroutine-iosx64/0.4.0/test-util-coroutine-iosx64-0.4.0.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-coroutine-iosx64",
+        "version": "0.4.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-coroutine-jvm/0.4.0/test-util-coroutine-jvm-0.4.0.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-coroutine-jvm",
+        "version": "0.4.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-coroutine-jvm/0.4.0/test-util-coroutine-jvm-0.4.0.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-coroutine-jvm",
+        "version": "0.4.0"
+      }
+    }
+  ]
+}

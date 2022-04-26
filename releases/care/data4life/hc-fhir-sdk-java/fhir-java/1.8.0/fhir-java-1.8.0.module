@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.8.0.jar",
+          "url": "fhir-java-1.8.0.jar",
+          "size": 1012051,
+          "sha512": "badd9ce4433b8ad03e9c5037b9741b7c7fd7d504d9457eb6e99726ad211a032fd932cd003ebe34300055f80b3eb58e44dca58afd0ff0b5d9f7484db65ddadd93",
+          "sha256": "ab7e9aebab22f034b5b7fe7864bef562a38f80b9a78a1a2bf81a2cb5a1c3b744",
+          "sha1": "26ebd8bf13f6c01cda9c466782870f743e40c58c",
+          "md5": "09fa57779cb940896a37f623bb99fb66"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.8.0.jar",
+          "url": "fhir-java-1.8.0.jar",
+          "size": 1012051,
+          "sha512": "badd9ce4433b8ad03e9c5037b9741b7c7fd7d504d9457eb6e99726ad211a032fd932cd003ebe34300055f80b3eb58e44dca58afd0ff0b5d9f7484db65ddadd93",
+          "sha256": "ab7e9aebab22f034b5b7fe7864bef562a38f80b9a78a1a2bf81a2cb5a1c3b744",
+          "sha1": "26ebd8bf13f6c01cda9c466782870f743e40c58c",
+          "md5": "09fa57779cb940896a37f623bb99fb66"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util/0.5.0/test-util-0.5.0.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-jvm-0.5.0.jar",
+          "url": "test-util-jvm-0.5.0.jar",
+          "size": 12827,
+          "sha512": "724cc90eba26dc4d5dda0b4f2a773482626496ac2962cce3694a11cc6f96d17b5458bdbb925a6ddc2a7bb003336b6ed0faab1648aebe267f75c8c617f94aecec",
+          "sha256": "4410f6c5d31da65f4ec0f0729bf1d3d855b7ea21f95528e883275410378bf547",
+          "sha1": "212e8f0566340f3012b2952e05e5a64c33d02fc4",
+          "md5": "3601c2409c4ff199ac55c16b84aa6016"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-junit",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-jvm-0.5.0.jar",
+          "url": "test-util-jvm-0.5.0.jar",
+          "size": 12827,
+          "sha512": "724cc90eba26dc4d5dda0b4f2a773482626496ac2962cce3694a11cc6f96d17b5458bdbb925a6ddc2a7bb003336b6ed0faab1648aebe267f75c8c617f94aecec",
+          "sha256": "4410f6c5d31da65f4ec0f0729bf1d3d855b7ea21f95528e883275410378bf547",
+          "sha1": "212e8f0566340f3012b2952e05e5a64c33d02fc4",
+          "md5": "3601c2409c4ff199ac55c16b84aa6016"
+        }
+      ]
+    }
+  ]
+}

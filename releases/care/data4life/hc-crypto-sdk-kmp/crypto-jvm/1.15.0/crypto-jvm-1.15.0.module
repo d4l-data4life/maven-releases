@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../crypto/1.15.0/crypto-1.15.0.module",
+    "group": "care.data4life.hc-crypto-sdk-kmp",
+    "module": "crypto",
+    "version": "1.15.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "crypto-jvm-1.15.0.jar",
+          "url": "crypto-jvm-1.15.0.jar",
+          "size": 58950,
+          "sha512": "99c91d17b1cd5f6bfb4e9569ac27c35e5c9b747e093549e75114bb85215f3b5d436b72b14b7eef99785049ed9a9dc8cd49d5606a0312dc721d542a5b5310d227",
+          "sha256": "9b7dc755ae840afd790a564c4af95ef6374fd7b0335fb4699707567526e6e6af",
+          "sha1": "232120102665aa269faac55be05790ca969d3a42",
+          "md5": "b2555d9396afed437c0ff5f93dd6043a"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk18on",
+          "version": {
+            "requires": "1.71"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.15.0.jar",
+          "url": "crypto-jvm-1.15.0.jar",
+          "size": 58950,
+          "sha512": "99c91d17b1cd5f6bfb4e9569ac27c35e5c9b747e093549e75114bb85215f3b5d436b72b14b7eef99785049ed9a9dc8cd49d5606a0312dc721d542a5b5310d227",
+          "sha256": "9b7dc755ae840afd790a564c4af95ef6374fd7b0335fb4699707567526e6e6af",
+          "sha1": "232120102665aa269faac55be05790ca969d3a42",
+          "md5": "b2555d9396afed437c0ff5f93dd6043a"
+        }
+      ]
+    }
+  ]
+}

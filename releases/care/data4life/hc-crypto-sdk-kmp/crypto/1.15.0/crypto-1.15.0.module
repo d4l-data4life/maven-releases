@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-crypto-sdk-kmp",
+    "module": "crypto",
+    "version": "1.15.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "crypto-metadata-1.15.0.jar",
+          "url": "crypto-1.15.0.jar",
+          "size": 12497,
+          "sha512": "1f01755334356e0358176e38de955c45d578a39788dee385c6109e34e5c440386635be4bb965ca27214dd2e5b7b1b874d189c94cbc391e1eabca83243e334b94",
+          "sha256": "7f663808560fe38aa7c1573794c914b3d7684e6f7d2243dffb58824d7293cc02",
+          "sha1": "6d3d6d4d47fef0185590848fa363536c2d3926f1",
+          "md5": "5babfaf1682b0b64c31ce63bc787bfb8"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../crypto-android-debug/1.15.0/crypto-android-debug-1.15.0.module",
+        "group": "care.data4life.hc-crypto-sdk-kmp",
+        "module": "crypto-android-debug",
+        "version": "1.15.0"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../crypto-android-debug/1.15.0/crypto-android-debug-1.15.0.module",
+        "group": "care.data4life.hc-crypto-sdk-kmp",
+        "module": "crypto-android-debug",
+        "version": "1.15.0"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../crypto-android/1.15.0/crypto-android-1.15.0.module",
+        "group": "care.data4life.hc-crypto-sdk-kmp",
+        "module": "crypto-android",
+        "version": "1.15.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../crypto-android/1.15.0/crypto-android-1.15.0.module",
+        "group": "care.data4life.hc-crypto-sdk-kmp",
+        "module": "crypto-android",
+        "version": "1.15.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../crypto-jvm/1.15.0/crypto-jvm-1.15.0.module",
+        "group": "care.data4life.hc-crypto-sdk-kmp",
+        "module": "crypto-jvm",
+        "version": "1.15.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../crypto-jvm/1.15.0/crypto-jvm-1.15.0.module",
+        "group": "care.data4life.hc-crypto-sdk-kmp",
+        "module": "crypto-jvm",
+        "version": "1.15.0"
+      }
+    }
+  ]
+}

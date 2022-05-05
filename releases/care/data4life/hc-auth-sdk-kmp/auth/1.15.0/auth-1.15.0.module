@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-auth-sdk-kmp",
+    "module": "auth",
+    "version": "1.15.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "auth-metadata-1.15.0.jar",
+          "url": "auth-1.15.0.jar",
+          "size": 3762,
+          "sha512": "394edbec3c07f7edf4f3899bf3fad4d48427e0393809af66951a5ef1cbceae84a48856730399086035322dc0ece3e620d9a6e5f4cfe47c43faf2e61fef525519",
+          "sha256": "e0d1c1d28ecc3f77ec22ee2d6a52a62a4842320f31697c4f51734f43d4a1d943",
+          "sha1": "60599af85568df9037ae6b080e251b3f59944e2e",
+          "md5": "7e7155cedd3a81fe5c6f609ef29b19da"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../auth-android-debug/1.15.0/auth-android-debug-1.15.0.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-android-debug",
+        "version": "1.15.0"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../auth-android-debug/1.15.0/auth-android-debug-1.15.0.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-android-debug",
+        "version": "1.15.0"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../auth-android/1.15.0/auth-android-1.15.0.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-android",
+        "version": "1.15.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../auth-android/1.15.0/auth-android-1.15.0.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-android",
+        "version": "1.15.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../auth-jvm/1.15.0/auth-jvm-1.15.0.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-jvm",
+        "version": "1.15.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../auth-jvm/1.15.0/auth-jvm-1.15.0.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-jvm",
+        "version": "1.15.0"
+      }
+    }
+  ]
+}
